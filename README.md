@@ -1,16 +1,29 @@
-# React + Vite
+# 🍽️ Noor Kitchen — Live OS (Unified Restaurant Ecosystem)
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+An end-to-end, real-time restaurant operations and dining management web application built with *React, **Vite, and **Tailwind CSS*.
 
-Currently, two official plugins are available:
+## ✨ Key Modules & Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- *Unified Command View:* Split-screen live simulation showing customer ordering, kitchen prep, and floor service syncing simultaneously.
+- *Guest QR Table Menu:* Mobile-first digital menu with table selection (T1–T10), category filters, live cart billing, and one-tap "Waiter Bulayein" service alerts.
+- *Kitchen Display System (KDS):* High-contrast dark-mode ticket queue tracking order timers, prep status (New → Preparing → Ready), and dish counts.
+- *Floor & Waiter Hub:* Live table occupancy map, instant waiter call notifications, and ready-to-serve dish dispatch.
+- *WhatsApp Order Bot:* Automated conversational ordering flow for takeaway and delivery customers.
+- *Live Stock & Inventory Tracker:* Real-time ingredient depletion alerts and restock indicators.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- *Frontend:* React (Hooks & State Management)
+- *Build Tool:* Vite
+- *Styling:* Tailwind CSS
+- *Icons:* Lucide React
 
-## Expanding the Oxlint configuration
+## 🚀 Run Locally
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+1. *Clone the repository:*
+   git clone https://github.com/ayushprasad7014-prog/Noor-kitchen.git
+   cd Noor-kitchen
+   npm install
+   npm run dev
+   
+   
